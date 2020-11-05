@@ -5,7 +5,7 @@ from datetime import datetime
 import requests
 
 
-api_endpoint = 'https://graphics.thomsonreuters.com/2020-US-elex/20201103/20201103-summary.json?cache=1604507334441'
+api_endpoint = 'https://graphics.thomsonreuters.com/2020-US-elex/20201103/20201103-summary.json'
 
 
 def parse_state(r):
